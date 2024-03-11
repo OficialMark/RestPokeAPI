@@ -48,7 +48,7 @@ Esta é uma API simples em Flask para gerenciar equipes de Pokémon. Ela permite
 
 - Docker:
 1. No terminal, navegue até a pasta com os arquivos
-2. use o comando "docker-compose up"
+2. use o comando `docker-compose up`
 
 ## Observações
 
