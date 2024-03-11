@@ -71,4 +71,4 @@ print(response.json())
 ## Observações
 
 - Os times são armazenados em memória durante a execução. Ao encerrar a aplicação, eles são salvos no arquivo `teams.json`.
-- As rotas retornam um objeto JSON indicando o sucesso da operação ou especificando um código de status: 200 para operações bem-sucedidas, 400 para inconsistências nos dados de entrada e 404 quando a informação solicitada não é encontrada.
+- As rotas retornam um objeto JSON indicando o sucesso da operação e um código de status: 200 para operações bem-sucedidas, 400 para inconsistências nos dados de entrada e 404 quando a informação solicitada não é encontrada.
