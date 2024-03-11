@@ -34,6 +34,25 @@ Esta é uma API simples em Flask para gerenciar equipes de Pokémon. Ela permite
 
 - `POST /api/teams`
   - Cria um novo time associado a um usuário, com base na lista de Pokémon fornecida.
+  - Exemplo com script python:
+´´´python
+import requests
+import json
+
+base_url = 'http://localhost:5000/api/teams'
+team_data = {
+    'user': 'AshKetchum',
+    'pokemon_list': ['Charizard', 'Pikachu', 'Zapdos']
+}
+
+headers = {'Content-Type': 'application/json'}
+team_json = json.dumps(team_data)
+response = requests.post(base_url, data=team_json, headers=headers)
+
+print(response.status_code)
+print(response.json())
+
+´´´
 
 ## Estrutura do Projeto
 
