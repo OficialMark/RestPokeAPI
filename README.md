@@ -53,5 +53,4 @@ Esta é uma API simples em Flask para gerenciar equipes de Pokémon. Ela permite
 ## Observações
 
 - Os times são armazenados em memória durante a execução. Ao encerrar a aplicação, eles são salvos no arquivo `teams.json`.
-- As rotas retornam uma json (informando o sucesso ou qual erro, caso ocorra) e o status_code: 200 para sucesso, 400 para inconsistencia nos dados de entrada e 404 para informação não encontrada.
-
+- As rotas retornam um objeto JSON indicando o sucesso da operação ou especificando um código de status: 200 para operações bem-sucedidas, 400 para inconsistências nos dados de entrada e 404 quando a informação solicitada não é encontrada.
