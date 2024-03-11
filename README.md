@@ -65,8 +65,8 @@ print(response.json())
 2. Execute o script com `python app.py`.
 
 - Docker:
-1. No terminal, navegue até a pasta com os arquivos
-2. use o comando `docker-compose up`
+1. No terminal, navegue até a pasta com os arquivos.
+2. Execute o comando `docker-compose up`.
 
 ## Observações
 
