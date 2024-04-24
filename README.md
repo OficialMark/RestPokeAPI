@@ -1,4 +1,4 @@
-# Pokemon Teams API - Desafio Triágil
+# Pokemon Teams API
 
 Esta é uma API simples em Flask para gerenciar equipes de Pokémon. Ela permite criar, listar e buscar times de Pokémon.
 
